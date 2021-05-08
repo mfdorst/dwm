@@ -66,8 +66,8 @@ static const char *roficmd[] = { "rofi", "-show", "run", NULL};
 static const char *termcmd[]  = { "alacritty", NULL };
 
 // Volume control
-static const char *upvol[]   = { "/usr/bin/amixer", "-c", "1", "set", "Master", "5%+",    NULL };
-static const char *downvol[] = { "/usr/bin/amixer", "-c", "1", "set", "Master", "5%-",    NULL };
+static const char *upvol[]   = { "/usr/bin/volume-up", NULL };
+static const char *downvol[] = { "/usr/bin/volume-down", NULL };
 
 static Key keys[] = {
 	/* modifier                     key        function        argument */
