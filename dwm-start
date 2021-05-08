@@ -1,7 +1,8 @@
 #!/bin/bash
 
-# Setup display preferences
+# Setup display and sound preferences
 setup-displays
+setup-sound
 
 # Relaunch DWM if the binary changes, otherwise bail
 csum=$(sha1sum $(which dwm))
