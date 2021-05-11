@@ -4,6 +4,9 @@
 setup-displays
 setup-sound
 
+# Set title bar
+xsetroot -name " "
+
 # Relaunch DWM if the binary changes, otherwise bail
 csum=$(sha1sum $(which dwm))
 while true; do
